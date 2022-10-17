@@ -1,0 +1,56 @@
+.storage-left {
+  position: absolute;
+  right: 20px;
+  color: var(--redpink);
+}
+
+.storage-lists__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  border-bottom: 1px solid rgba(79, 81, 82, 0.3);
+  font-size: 20px;
+}
+
+.storage-lists__list div i {
+  color: var(--redpink);
+  margin-right: 10px;
+}
+
+.storage-lists__list .fa-chevron-right {
+  color: rgba(79, 81, 82, 0.9);
+}
+
+.storage-recently-added-title {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.storage-recently-added-songs {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.storage-recently-added-song {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+}
+.storage-recently-added-song img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  margin-bottom: 8px;
+}
+.storage-recently-added-song-text h4 {
+  margin: 2px 5px;
+  font-size: 13px;
+}
+
+.storage-recently-added-song-text h4:last-child {
+  opacity: 0.6;
+  font-size: 11px;
+}

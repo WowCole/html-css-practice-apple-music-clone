@@ -9,6 +9,8 @@
 /* screen */
 @import "/css/screens/listen-now.css";
 @import "/css/screens/radio.css";
+@import "/css/screens/storage.html";
+@import "/css/screens/storage.css";
 * {
   box-sizing: border-box;
 }

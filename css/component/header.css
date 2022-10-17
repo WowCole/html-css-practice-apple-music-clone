@@ -11,7 +11,7 @@ header {
   align-items: flex-end;
   padding-bottom: 10px;
   opacity: 1;
-
   font-size: 18px;
   z-index: 1;
+  font-size: 15px;
 }
