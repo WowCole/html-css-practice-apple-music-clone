@@ -1,5 +1,5 @@
 .nav {
-  padding: 10px 0px;
+  padding-top: 10px;
   position: fixed;
   bottom: 0px;
   display: flex;
@@ -7,10 +7,10 @@
   align-items: flex-start;
   width: 100%;
   left: 0px;
-  background-color: rgba(79, 81, 82, 0.6);
+  background-color: rgba(79, 81, 82, 0.3);
   height: 100px;
-  backdrop-filter: blur(5px);
-  border-top: 1px solid grey;
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(79, 81, 82, 0.3);
 }
 .nav__now-play h5,
 .nav__look-around h5,
@@ -19,6 +19,7 @@
 .nav__search h5 {
   font-size: 11px;
   margin-top: 10px;
+  font-weight: 700;
 }
 
 .nav__now-play,
@@ -36,4 +37,8 @@
 
 .redpink {
   color: var(--redpink);
+}
+.nav__link {
+  text-decoration: inherit;
+  color: white;
 }

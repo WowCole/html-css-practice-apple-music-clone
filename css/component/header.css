@@ -1,4 +1,4 @@
-.listen-now__header {
+header {
   display: flex;
   justify-content: center;
   background-color: rgba(79, 81, 82, 0.3);
@@ -8,9 +8,9 @@
   top: 0px;
   height: 80px;
   align-items: flex-end;
-  padding: 10px;
+  padding-bottom: 10px;
   opacity: 1;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(15px);
   font-size: 18px;
   z-index: 1;
 }
