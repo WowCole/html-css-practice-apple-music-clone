@@ -38,13 +38,13 @@
   opacity: 1;
 }
 .radio-cover {
-  width: 400px;
-  height: 400px;
+  width: auto;
+  height: auto;
   position: relative;
 }
 .radio-cover img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 15px;
 }
 
@@ -55,7 +55,7 @@
   justify-content: space-between;
   bottom: 0px;
   height: 100px;
-  width: 400px;
+  width: 350px;
   background-color: rgba(79, 81, 82, 0.3);
   backdrop-filter: blur(10px);
   border-radius: 0px 0px 15px 15px;

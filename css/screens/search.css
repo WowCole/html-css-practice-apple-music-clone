@@ -1,0 +1,87 @@
+.search-form {
+  padding: 10px;
+  width: 100%;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  top: 80px;
+  height: 30px;
+  background-color: rgba(79, 81, 82, 0.8);
+  border-radius: 10px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  z-index: 2;
+  backdrop-filter: blur(15px);
+}
+.search-form__search-box input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  color: white;
+}
+.search-form__search-box i {
+  opacity: 0.6;
+}
+.category-title {
+  margin-top: 25px;
+  font-size: 18px;
+}
+.category-lists {
+  margin: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.category-lists-list {
+  display: flex;
+  position: relative;
+  margin-top: 10px;
+}
+.category-lists-list img {
+  width: 170px;
+  height: 150px;
+  border-radius: 10px;
+}
+.category-lists-list h5 {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-size: 13px;
+}
+.category-lists-list:nth-child(1) img {
+  filter: opacity(0.6) drop-shadow(0 0 0 red);
+}
+.category-lists-list:nth-child(2) img {
+  filter: opacity(0.6) drop-shadow(0 0 0 blue);
+}
+.category-lists-list:nth-child(3) img {
+  filter: opacity(0.6) drop-shadow(0 0 0 green);
+}
+.category-lists-list:nth-child(4) img {
+  filter: opacity(0.6) drop-shadow(0 0 0 purple);
+}
+.category-lists-list:nth-child(5) img {
+  filter: opacity(0.6) drop-shadow(0 0 0 yellow);
+}
+.category-lists-list:nth-child(6) img {
+  filter: opacity(0.6) drop-shadow(0 0 0 lime);
+}
+.category-lists-list:nth-child(7) img {
+  filter: opacity(0.6) drop-shadow(0 0 0 skyblue);
+}
+.category-lists-list:nth-child(8) img {
+  filter: opacity(0.6) drop-shadow(0 0 0 red);
+}
+.category-lists-list:nth-child(9) img {
+  filter: opacity(0.6) drop-shadow(0 0 0 tomato);
+}
+.category-lists-list:nth-child(10) img {
+  filter: opacity(0.6) drop-shadow(0 0 0 gray);
+}
+
+.category-lists-list:nth-child(11) img {
+  filter: opacity(0.6) drop-shadow(0 0 0 green);
+}
+.category-lists-list:nth-child(12) img {
+  filter: opacity(0.6) drop-shadow(0 0 0 purple);
+}
