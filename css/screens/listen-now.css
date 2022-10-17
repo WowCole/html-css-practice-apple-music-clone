@@ -1,0 +1,22 @@
+.listen-now__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  margin: 20px 0px;
+}
+.listen-now__title div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 5px solid #ef394f;
+  width: 35px;
+  height: 35px;
+}
+.listen-now__title div > i {
+  color: #ef394f;
+  position: absolute;
+  bottom: 10px;
+}

@@ -1,0 +1,26 @@
+.now-playing {
+  padding: 0px 20px;
+  position: fixed;
+  bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  left: 0px;
+  background-color: rgba(79, 81, 82, 0.6);
+  height: 80px;
+  backdrop-filter: blur(5px);
+  border-top: 1px solid grey;
+}
+
+.now-playing__info {
+  display: flex;
+  align-items: center;
+}
+.now-playing__info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  margin-right: 10px;
+}

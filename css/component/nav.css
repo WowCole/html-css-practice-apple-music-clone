@@ -1,0 +1,39 @@
+.nav {
+  padding: 10px 0px;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  left: 0px;
+  background-color: rgba(79, 81, 82, 0.6);
+  height: 100px;
+  backdrop-filter: blur(5px);
+  border-top: 1px solid grey;
+}
+.nav__now-play h5,
+.nav__look-around h5,
+.nav__radio h5,
+.nav__storage h5,
+.nav__search h5 {
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.nav__now-play,
+.nav__look-around,
+.nav__radio,
+.nav__storage,
+.nav__search {
+  opacity: 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+
+.redpink {
+  color: var(--redpink);
+}

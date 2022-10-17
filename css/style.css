@@ -1,0 +1,22 @@
+@import "/css/reset.css";
+@import "/css/variables.css";
+/* component */
+@import "/css/component/nav.css";
+@import "/css/component/status-bar.css";
+@import "/css/component/header.css";
+@import "/css/component/side-scroll.css";
+@import "/css/component/now-playing.css";
+/* screen */
+@import "/css/screens/listen-now.css";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 100px 20px;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  height: 100vh;
+}

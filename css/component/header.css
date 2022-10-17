@@ -1,0 +1,16 @@
+.listen-now__header {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(79, 81, 82, 0.3);
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  height: 80px;
+  align-items: flex-end;
+  padding: 10px;
+  opacity: 1;
+  backdrop-filter: blur(5px);
+  font-size: 18px;
+  z-index: 1;
+}
