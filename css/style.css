@@ -1,17 +1,17 @@
-@import "css/reset.css";
-@import "css/variables.css";
+@import "/css/reset.css";
+@import "/css/variables.css";
 /* component */
-@import "css/component/nav.css";
-@import "css/component/status-bar.css";
-@import "css/component/header.css";
-@import "css/component/side-scroll.css";
-@import "css/component/now-playing.css";
+@import "/css/component/nav.css";
+@import "/css/component/status-bar.css";
+@import "/css/component/header.css";
+@import "/css/component/side-scroll.css";
+@import "/css/component/now-playing.css";
 /* screen */
-@import "css/screens/listen-now.css";
-@import "css/screens/radio.css";
-@import "css/screens/storage.html";
-@import "css/screens/storage.css";
-@import "css/screens/search.css";
+@import "/css/screens/listen-now.css";
+@import "/css/screens/radio.css";
+@import "/css/screens/storage.html";
+@import "/css/screens/storage.css";
+@import "/css/screens/search.css";
 * {
   box-sizing: border-box;
 }
