@@ -1,7 +1,8 @@
 header {
   display: flex;
   justify-content: center;
-  background-color: rgba(79, 81, 82, 0.3);
+  background-color: rgba(79, 81, 82, 0.2);
+  backdrop-filter: blur(15px);
   position: fixed;
   width: 100%;
   left: 0px;
@@ -10,7 +11,7 @@ header {
   align-items: flex-end;
   padding-bottom: 10px;
   opacity: 1;
-  backdrop-filter: blur(15px);
+
   font-size: 18px;
   z-index: 1;
 }
