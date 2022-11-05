@@ -39,6 +39,7 @@
   margin: 5px 0px;
   margin-bottom: 10px;
   color: grey;
+  margin-left: 20px;
 }
 .bhs .cover-info {
   display: flex;
@@ -100,6 +101,7 @@
   font-size: 12px;
   margin: 3px 0px;
   font-weight: 600;
+  margin-left: 20px;
 }
 .hs .scroll-lists .scroll-lists__list .cover-info h4:last-child {
   color: gray;

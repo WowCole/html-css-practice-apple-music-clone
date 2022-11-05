@@ -4,6 +4,7 @@
   align-items: center;
   font-size: 30px;
   margin: 20px 0px;
+  margin-left: 20px;
 }
 .listen-now__title div {
   position: relative;
@@ -19,4 +20,7 @@
   color: #ef394f;
   position: absolute;
   bottom: 10px;
+}
+.list-title {
+  margin-left: 20px;
 }

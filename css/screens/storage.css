@@ -27,7 +27,7 @@
   font-size: 20px;
 }
 .storage-recently-added-songs {
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -39,8 +39,8 @@
   margin-top: 15px;
 }
 .storage-recently-added-song img {
-  width: 165px;
-  height: 165px;
+  width: 200px;
+  height: 200px;
   border-radius: 15px;
   margin-bottom: 8px;
 }
