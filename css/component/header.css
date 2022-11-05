@@ -3,8 +3,8 @@ header {
   justify-content: center;
   background-color: rgba(79, 81, 82, 0.2);
   backdrop-filter: blur(15px);
-  position: fixed;
-  width: 100%;
+  position: sticky;
+  width: 520px;
   left: 0px;
   top: 0px;
   height: 80px;

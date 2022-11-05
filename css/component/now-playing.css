@@ -1,11 +1,11 @@
 .now-playing {
   padding: 20px;
-  position: fixed;
+  position: sticky;
   bottom: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 520px;
   left: 0px;
   background-color: rgba(79, 81, 82, 0.3);
   height: 60px;

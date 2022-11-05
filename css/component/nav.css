@@ -1,11 +1,11 @@
 .nav {
   padding-top: 10px;
-  position: fixed;
+  position: sticky;
   bottom: 0px;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  width: 100%;
+  width: 520px;
   left: 0px;
   background-color: rgba(79, 81, 82, 0.3);
   backdrop-filter: blur(15px);

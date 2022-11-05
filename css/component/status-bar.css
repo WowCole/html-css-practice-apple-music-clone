@@ -1,11 +1,11 @@
 .status-bar {
-  position: fixed;
+  position: sticky;
   display: flex;
   justify-content: space-between;
   top: 20px;
   left: 0px;
   padding: 0px 20px;
-  width: 100%;
+  width: 520px;
   align-items: center;
   z-index: 2;
   font-size: 15px;
